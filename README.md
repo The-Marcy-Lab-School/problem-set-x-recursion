@@ -5,7 +5,9 @@ Respond to short response questions in clear, concise sentences directly within 
 
 ### Short Response Questions
 **1. What is recursion?**
+
 **2. What type of problems are best solved using recursion?**
+
 **3. What are the benefits of writing functions recursively? What are the drawbacks?**
 
 ### Coding Exercises
