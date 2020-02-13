@@ -5,6 +5,7 @@ Respond to short response questions in clear, concise sentences directly within 
 
 ### Short Response Questions
 **1. What is recursion?**
+  Recursion is the concept of a function calling upon itself in their function body. This is expecially useful if you're function relies on a lot of looping to get your expected output.
 
 **2. What type of problems are best solved using recursion?**
 
