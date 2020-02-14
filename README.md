@@ -5,9 +5,16 @@ Respond to short response questions in clear, concise sentences directly within 
 
 ### Short Response Questions
 **1. What is recursion?**
-  Recursion is the concept of a function calling upon itself in their function body. This is expecially useful if you're function relies on a lot of looping to get your expected output.
+  Recursion is the concept of a function calling upon itself in their function body.
+  This is expecially useful if you're function relies on a lot of looping to get your expected output.
+  For recursion to not cause an infinite loop, or a 1000-round loop if your language has a limit on 
+  recursives functions like python does, you must provide a base case, and a recursive case. A base
+  case to control the action taken before the function loops itself and then to terminate the infinite
+  recursive loop, and a recursive case to actually do perform the recursion.
 
 **2. What type of problems are best solved using recursion?**
+
+    
 
 **3. What are the benefits of writing functions recursively? What are the drawbacks?**
 
