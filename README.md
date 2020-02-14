@@ -41,28 +41,28 @@ Answer the following questions in `exercises.py`. Run unit test with the `pytest
 
 
 
----
+<!------->
 
-from functoosl import lru_cache
+<!--from functoosl import lru_cache-->
 
-def factorial(num: int) -> int:
-    #Multiply that number and every number previously
-    fact = 1
+<!--def factorial(num: int) -> int:-->
+<!--    #Multiply that number and every number previously-->
+<!--    fact = 1-->
     
-    for i in range(num, 0):
-        fact *= 1
+<!--    for i in range(num, 0):-->
+<!--        fact *= 1-->
         
-    return fact
+<!--    return fact-->
 
-# print(factorial(5) == 120)
-# print(factorial(4) == 24)
-# print(factorial(6) == 720)
+<!--# print(factorial(5) == 120)-->
+<!--# print(factorial(4) == 24)-->
+<!--# print(factorial(6) == 720)-->
 
 
-def recursive_factorial(num: int) -> int:
+<!--def recursive_factorial(num: int) -> int:-->
     
-    #base case
-    if num == 1:
-        return 1
-    else:
-        return num * recursive_factorial(num - 1)
+<!--    #base case-->
+<!--    if num == 1:-->
+<!--        return 1-->
+<!--    else:-->
+<!--        return num * recursive_factorial(num - 1)-->
