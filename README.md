@@ -14,7 +14,9 @@ Respond to short response questions in clear, concise sentences directly within 
 
 **2. What type of problems are best solved using recursion?**
 
-    
+    The type of problems that recursion can be geared towards typically require a decent amount of looping or iterating. Though,
+    it can be used in multiple scenarios. One of which is searching for an element, or traversing through a data structures that contain
+    multiple other elements such as dictionaries, lists, or sets.
 
 **3. What are the benefits of writing functions recursively? What are the drawbacks?**
 
