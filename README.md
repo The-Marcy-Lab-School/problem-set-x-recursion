@@ -5,10 +5,14 @@ Respond to short response questions in clear, concise sentences directly within 
 
 ### Short Response Questions
 **1. What is recursion?**
+Answer: Recursion is a method or process of breaking down problems into smaller and smaller subproblems. You continue to do this until it gets small enough that it can be solved with ease. 
 
 **2. What type of problems are best solved using recursion?**
+Answer: The type of problems that are best solved using recursion are problems where you are repeating steps until you find what you are looking for.
 
 **3. What are the benefits of writing functions recursively? What are the drawbacks?**
+Answer: The benefit of writing functions recursively is that they  allow us to write elegant solutions to problems that may be very difficult to program. One drawback of writing recursive functions is that if you do not state a base case, you can cause an infinite loop on your cpu that will eventullay make your computer crash if you do not kill the script.
+
 
 ### Coding Exercises
 Answer the following questions in `exercises.py`. Run unit test with the `pytest` command. Ensure all tests are passing before submitting this problem set.
