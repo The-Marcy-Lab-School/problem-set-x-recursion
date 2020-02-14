@@ -23,7 +23,7 @@ def test_fib_dyn():
 
 #@pytest.mark.skip()
 def test_fib_iter():
-    assert fib_iter(10) == 55
+    assert fib_iter(10) == 89
     assert fib_iter(1) == 1
     assert fib_iter(0) == 1
     assert fib_iter(20) == 10946

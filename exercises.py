@@ -26,7 +26,7 @@ def fib_dyn(n: int) -> int:
         return cache[n]
 
 def fib_iter(n: int) -> int:
-    a = 0
+    a = 1
     b = 1
     if n < 0: 
         print("Incorrect input") 
