@@ -28,7 +28,7 @@ def fib_iter(n: int) -> int:
     first = 0
     second = 1
 
-    for i in range(n):
+    for _ in range(n):
         third = first + second
         first = second
         second = third
