@@ -30,5 +30,5 @@ def test_fib_iter():
 
 @pytest.mark.skip()
 def test_to_str():
-    assert toStr(199, 10) == '199'
-    assert toStr(30, 2) == '11110'
+    assert to_str(199, 10) == '199'
+    assert to_str(30, 2) == '11110'
