@@ -5,10 +5,13 @@ Respond to short response questions in clear, concise sentences directly within 
 
 ### Short Response Questions
 **1. What is recursion?**
+	- Recursion is a method of solving problems by having a function invoke itself to find the solution of increasinly trivial and smaller versions of the same problem, building up to the solution. Recursion can also happen when data structures use instances of themselves when defined.
 
 **2. What type of problems are best solved using recursion?**
+	- Recursion is best fit for problems when the repitition of tasks is needed but iterative loops are not ideal. These problems are easily represented in terms of smaller or simpler instances of the same problem.
 
 **3. What are the benefits of writing functions recursively? What are the drawbacks?**
+	- For the right problem, recursion offers an intuitive and readable solution. The benefits of recursion, however, come at the cost of memory and efficiency. Each function call, of which a recursive program might make many of, is added to the call stack, a data structure limited in size. Memoization, a technique in which the result of previous function calls are saved, also requires more space.
 
 ### Coding Exercises
 Answer the following questions in `exercises.py`. Run unit test with the `pytest` command. Ensure all tests are passing before submitting this problem set.
