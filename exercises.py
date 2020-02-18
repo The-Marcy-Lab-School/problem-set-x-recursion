@@ -50,3 +50,4 @@ def to_str(n: int, base: int) -> int:
         return convert[n]
     else:
         return to_str(n // base, base) + convert[n % base]
+        #Review later, understand fully
