@@ -17,7 +17,7 @@ Respond to short response questions in clear, concise sentences directly within 
 
     The type of problems that recursion can be geared towards typically require a decent amount of looping or 
     iterating. Though, it can be used in multiple scenarios. One of which is searching for an element, or 
-    traversing through a data structures that contain multiple other other pieces of data.
+    traversing through a data structures that contain multiple other other pieces of data. hi
 
 **3. What are the benefits of writing functions recursively? What are the drawbacks?**
 
