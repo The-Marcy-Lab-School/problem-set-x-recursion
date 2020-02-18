@@ -1,41 +1,31 @@
 """Recursion Problem Set: Coding Exercises"""
 
-# Short-hand PEDAC.
-# Note to self: Dont make this a habit
-
-# Reverse
-# 1. Functions takes a string
-# 2. Put the base condition that if the length of the string is equal to 0 or 1, the string is returned.
-#    You cant reverse a string with 1 or no characters. Has to be a first and last character.
-# 3. Recursively call the reverse function to slice the string until its reversed.
-
 def reverse(s: str) -> str:
 
     if len(s) == 0 or len(s) == 1:
         return s
     else:
         return reverse(s[1:]) + s[0]    
-    # this is Correct, but still confused on how it knows when to stop.
         
-
-
 def fib_rec(n: int) -> int:
     """Recursive fibonacci"""
+    if n == 1 or n == 0:
+        return 1
     
+    return fib_rec(n - 1) + fib_rec(n-2)
 
 def fib_dyn(n: int) -> int:
     """Fibonacci using dynamic programming (w/ a cache)"""
+    cache = {}
     
-# fib_iter
-# 1. Starting from 1, add the 2 previous numbers in this sequence and return a new number. That number is the next in the sequence.
-# 2. if the num is 1 or 0, just return 1 because there are no previous numbers.
-# 3. Loop over each number in the sequence from 2 to whatever the argument is.
-# 4. num is now a combo of the previous number and the last number, just add and then return.
-# 5. last_number becomes num.
-# 6. return num or last_number to get the new number in the sequence.
-
-# add the two previous numbers continuously until 0.
-
+    if n == 1 or n == 0:
+        return 1
+    
+    if n in cache:
+        return cache[n]
+    else:
+        cache[n] = fib_dyn(n - 1) + fib_dyn(n - 2)
+        return cache[n]
 
 def fib_iter(n: int) -> int:
     """Iterative approach to solving the fibonacci problem"""
@@ -55,4 +45,8 @@ def fib_iter(n: int) -> int:
 def to_str(n: int, base: int) -> int:
     """convert integer to a string of a given base"""
 
-    
+    convert = '0123456789ABCDEF'
+    if n < base:
+        return convert[n]
+    else:
+        return to_str(n // base, base) + convert[n % base]
