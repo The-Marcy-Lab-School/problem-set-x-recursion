@@ -5,11 +5,11 @@ Respond to short response questions in clear, concise sentences directly within 
 
 ### Short Response Questions
 **1. What is recursion?**
-
+    Recursion is when a function is called within itself.
 **2. What type of problems are best solved using recursion?**
 
 **3. What are the benefits of writing functions recursively? What are the drawbacks?**
-
+    Writing a function recursively allows ones code to look cleaner due to not having to create a loop for the function. But while it does look neater it can lead to confusion and can cause errors within the code. 
 ### Coding Exercises
 Answer the following questions in `exercises.py`. Run unit test with the `pytest` command. Ensure all tests are passing before submitting this problem set.
 
