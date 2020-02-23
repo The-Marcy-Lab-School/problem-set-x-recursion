@@ -5,11 +5,12 @@ Respond to short response questions in clear, concise sentences directly within 
 
 ### Short Response Questions
 **1. What is recursion?**
-
+Recrsion is an algorithm in which it calls it self in order to break down into a smaller poblem for it to be solved in an elegant and readable way
 **2. What type of problems are best solved using recursion?**
+The best type of problem  to solve with recursion are those that have a repeating solution
 
 **3. What are the benefits of writing functions recursively? What are the drawbacks?**
-
+The benefits of using recursive functions is that they are more "elegant" in the sense that they are clearly readable and that 
 ### Coding Exercises
 Answer the following questions in `exercises.py`. Run unit test with the `pytest` command. Ensure all tests are passing before submitting this problem set.
 
