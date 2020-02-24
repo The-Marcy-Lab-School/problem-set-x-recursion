@@ -22,7 +22,7 @@ def fib_iter(n: int) -> int:
     Iterative approach to solving the fibonacci problem
     """
 
-def to_str(n: int, base: int) -> int:
+def to_str(n: int, base: int) -> str:
     """
     convert integer to a string of a given base
     """
