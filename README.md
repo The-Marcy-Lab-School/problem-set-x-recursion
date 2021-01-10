@@ -11,7 +11,7 @@ Respond to short response questions in clear, concise sentences directly within 
 **3. What are the benefits of writing functions recursively? What are the drawbacks?**
 
 ### Coding Exercises
-Answer the following questions in `exercises.py` or `exercises.js`. Run unit test with the `pytest` command for Python, or `yarn test` for JS. Ensure all tests are passing before submitting this problem set.
+Answer the following questions in `exercises.py` or `exercises.js`. Run unit test with the `pytest` command for Python, or `npm test` for JS. Ensure all tests are passing before submitting this problem set.
 
 1. **_Reverse a String:_** This interview question requires you to reverse a string using recursion. Make sure to think of the base case here and make sure you use recursion to accomplish this! Do not slice (e.g. string[::-1]) or use iteration, there must be a recursive call for the function.
 

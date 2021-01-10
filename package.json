@@ -4,7 +4,7 @@
   "description": "## Directions Respond to short response questions in clear, concise sentences directly within this file. Use markdown to ensure that your answers are formatted correctly.",
   "main": "exercises.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "url": "https://github.com/The-Marcy-Lab-School/problem-set-11_4/issues"
   },
   "homepage": "https://github.com/The-Marcy-Lab-School/problem-set-11_4#readme",
-  "scripts": {
-    "test": "jest"
+  "dependencies": {
+    "jest": "^26.6.3"
   }
 }
