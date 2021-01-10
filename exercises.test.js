@@ -1,4 +1,4 @@
-const { reverse, fibRec, fibDyn, fibIter, toStr } = require('./exercises.js');
+const { reverse, fibRec, fibIter, toStr } = require('./exercises.js');
 
 describe('reverse', () => {
   it('can reverse a simple string', () => {
