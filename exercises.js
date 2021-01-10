@@ -5,18 +5,13 @@ const reverse = (string) => {
 
 };
 
-// Recursive fibonacci
-const fibRec = (n) => {
-
-};
-
-// Fibonacci using dynamic programming (w/ a cache)
-const fibDyn = (n) => {
-
-};
-
 // Iterative approach to solving the fibonacci problem
 const fibIter = (n) =>{
+
+};
+
+// Recursive fibonacci
+const fibRec = (n) => {
 
 };
 
@@ -25,4 +20,4 @@ const toStr = (n, base) => {
 
 };
 
-module.exports = { reverse, fibRec, fibDyn, fibIter, toStr };
+module.exports = { reverse, fibRec, fibIter, toStr };
