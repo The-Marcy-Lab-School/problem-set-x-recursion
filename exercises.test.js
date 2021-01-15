@@ -35,6 +35,7 @@ describe('fibRec', () => {
 describe('toStr', () => {
   it('given number and base, converts number to string of that base', () => {
     expect(toStr(199, 10)).toEqual('199');
+    expect(toStr(14, 8)).toEqual('16');
     expect(toStr(30, 2)).toEqual('11110');
   });
 });
