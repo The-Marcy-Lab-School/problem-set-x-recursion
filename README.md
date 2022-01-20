@@ -17,6 +17,8 @@ Use Test Driven Development to guide you. For JavaScript, run `npm install` to d
 
 ### Coding Exercises
 
+**Use recursion to solve the following problem unless otherwise stated.**
+
 1. **_Reverse a String:_** This interview question requires you to reverse a string using recursion. Make sure to think of the base case here and make sure you use recursion to accomplish this! Do not slice (e.g. string[::-1]) or use iteration, there must be a recursive call for the function.
 
 2. **_Fibonnaci Sequence:_** Implement a Fibonnaci Sequence in two different ways - Iteratively and Recursively. Remember the fibonacci sequence: `0,1,1,2,3,5,8,13,21,...`. Your function should take in a number `n` and return the `nth` number in the Fibonnaci Sequence. For the purpose of this assignment, the `0th` number is `0` and the `1st` number is `1`. For example, `fib(0) = 0`, `fib(1) = 1`, `fib(2) = 1`, `fib(3) = 2`, `fib(4) = 3`, `fib(5) = 5`, `fib(6) = 8`, `fib(7) = 13`, and so on. 
